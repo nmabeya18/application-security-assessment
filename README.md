@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates a **Dynamic Application Security Testing (DAST)** assessment performed on the intentionally vulnerable **OWASP Juice Shop** application using **OWASP ZAP**. The goal was to identify common web application vulnerabilities, analyze their risk using CVSS scoring, and map findings to the OWASP Top 10 framework.
 
@@ -12,7 +12,7 @@ The assessment simulates a real-world application security workflow including sc
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * OWASP ZAP (DAST scanner)
 * OWASP Juice Shop (vulnerable web application)
@@ -22,7 +22,7 @@ The assessment simulates a real-world application security workflow including sc
 
 ---
 
-##  Objectives
+## Objectives
 
 * Perform automated and passive security testing using OWASP ZAP
 * Identify common web application vulnerabilities
@@ -33,7 +33,7 @@ The assessment simulates a real-world application security workflow including sc
 
 ---
 
-##  Methodology
+## Methodology
 
 1. Deployed OWASP Juice Shop locally using Docker
 2. Performed crawling and spidering using OWASP ZAP
@@ -46,7 +46,7 @@ The assessment simulates a real-world application security workflow including sc
 
 ---
 
-##  Key Findings
+## Key Findings
 
 ### 1. Content Security Policy (CSP) Not Set
 
@@ -84,7 +84,7 @@ The assessment simulates a real-world application security workflow including sc
 
 ---
 
-##  CVSS Scoring Approach
+## CVSS Scoring Approach
 
 CVSS v3.1 was used to evaluate vulnerability severity based on:
 
@@ -98,7 +98,7 @@ Scores were assigned based on observed risk and OWASP ZAP findings.
 
 ---
 
-## ‍ Python Vulnerability Prioritization Script
+## Python Vulnerability Prioritization Script
 
 A simple Python script was developed to sort vulnerabilities by severity and prioritize remediation efforts.
 
@@ -117,7 +117,7 @@ for vuln, score in sorted_findings:
 
 ---
 
-##  Evidence
+## Evidence
 
 Screenshots and scan outputs are included in the `/screenshots` directory, including:
 
@@ -128,7 +128,7 @@ Screenshots and scan outputs are included in the `/screenshots` directory, inclu
 
 ---
 
-## ️ Remediation Summary
+## ️Remediation Summary
 
 Recommended mitigations include:
 
@@ -140,7 +140,7 @@ Recommended mitigations include:
 
 ---
 
-##  Key Takeaways
+## Key Takeaways
 
 * Automated DAST tools are effective for identifying common web vulnerabilities
 * Security misconfigurations are among the most frequently detected issues
@@ -150,7 +150,7 @@ Recommended mitigations include:
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 application-security-assessment/
@@ -165,7 +165,7 @@ application-security-assessment/
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
 * Add authenticated scanning in OWASP ZAP
 * Expand testing to include SQL Injection and XSS payload verification
@@ -174,7 +174,7 @@ application-security-assessment/
 
 ---
 
-##  Author
+## Author
 
 **Nivea Mabeya**
 Cybersecurity & Application Security Enthusiast
@@ -182,7 +182,7 @@ GitHub: https://github.com/nmabeya18
 
 ---
 
-##  Disclaimer
+## Disclaimer
 
 This project was performed in a controlled, intentionally vulnerable environment (OWASP Juice Shop) for educational and security testing purposes only.
 # application-security-assessment
