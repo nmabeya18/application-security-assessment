@@ -51,7 +51,7 @@ The assessment simulates a real-world application security workflow including sc
 ### 1. Content Security Policy (CSP) Not Set
 
 * **Risk Level:** Medium
-* **CVSS Score:** 5.3
+* **CVSS Score:** 6.5
 * **OWASP Top 10:** A05: Security Misconfiguration
 * **Description:** Missing CSP header increases risk of client-side injection attacks such as XSS.
 
@@ -60,7 +60,7 @@ The assessment simulates a real-world application security workflow including sc
 ### 2. CSP Failure to Define Directive
 
 * **Risk Level:** Medium
-* **CVSS Score:** 5.3
+* **CVSS Score:** 6.5
 * **OWASP Top 10:** A05: Security Misconfiguration
 * **Description:** Incomplete CSP directives fail to properly restrict resource loading sources.
 
@@ -69,7 +69,7 @@ The assessment simulates a real-world application security workflow including sc
 ### 3. Cross-Domain Misconfiguration (CORS)
 
 * **Risk Level:** Medium
-* **CVSS Score:** 5.3
+* **CVSS Score:** 6.5
 * **OWASP Top 10:** A05: Security Misconfiguration
 * **Description:** Overly permissive cross-origin configuration may allow unauthorized cross-domain access.
 
@@ -78,7 +78,7 @@ The assessment simulates a real-world application security workflow including sc
 ### 4. HTTP Without Secure Transport
 
 * **Risk Level:** Medium
-* **CVSS Score:** 5.3
+* **CVSS Score:** 6.9
 * **OWASP Top 10:** A02: Cryptographic Failures
 * **Description:** Application does not enforce HTTPS, exposing data in transit to potential interception.
 
