@@ -158,7 +158,6 @@ application-security-assessment/
 ├── report/
 │   └── security-assessment.pdf
 ├── screenshots/
-├── scans/
 ├── scripts/
 │   └── findings.py
 ```
